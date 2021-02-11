@@ -20,6 +20,6 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 
 - [x] Variable met maken country -> "Belgie" (hardcoden)
 - [x] Variabele Url maken -> https://restcountries.eu/rest/v2/name/${country}?fullText=true
-- [ ] axios.get(url)
-- [ ] await toevoegen
-- [ ] response -> checken
+- [x] axios.get(url)
+- [x] await toevoegen
+- [x] response -> checken

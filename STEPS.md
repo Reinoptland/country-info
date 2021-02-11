@@ -13,8 +13,8 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 
 ## 2. De gebruiker gaat klikken
 
-- [ ] Knop selecteren (getElementById, opslaan in variabele)
-- [ ] Event listener & Event Handler toevoegen aan knop (addEventListener, click, async functie)
+- [x] Knop selecteren (getElementById, opslaan in variabele)
+- [x] Event listener & Event Handler toevoegen aan knop (addEventListener, click, async functie)
 
 ## 3. Wanneer de gebruiker klikt wordt mijn async function aangeroepen
 

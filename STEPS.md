@@ -28,9 +28,9 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 
 2. Maak op basis van de response de volgende string en log dit in de console: `[country-naam] is situated in [subarea-name]. It has a population of [amount] people.`
 
-- [ ] Goed in de data kijken, waar zit deze info: -> loggen
+- [x] Goed in de data kijken, waar zit deze info: -> loggen
 - [ ] variabelen maken: countryName, countryArea, countryPopulation
-- [ ] template string maken met -> `${countryName} ... etc`
+- [x] template string maken met -> `${countryName} ... etc`
 
 3. Maak op basis van de response de volgende string en log dit in de console: `The capital is [city]`
 
@@ -46,10 +46,9 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 - [ ] variabele maken, en de currencies uit de data daaraan toekennen
 - [ ] functie maken -> formatCurrencies
 - [ ] aanroepen -> logje in de functie zetten om te checken
-- [ ] input: currencies, parameter toevoegen, argument(en) meegeven 
+- [ ] input: currencies, parameter(s) toevoegen, argument(en) meegeven 
 - [ ] parameter loggen om te kijken of de input hebben
-- [ ] loopen -> meerdere currencies
 - [ ] if
 - [ ] 1 currency -> `and you can pay with [currency]'s`
 - [ ] 2 currency -> `and you can pay with [currency]'s and [currency]'s`
-- [ ] return de uitkomst
+- [ ] return de waarde `and you can pay with [currency]'s and [currency]'s`

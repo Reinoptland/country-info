@@ -7,10 +7,14 @@ async function getCountryInfo() {
   // JE KRIJGT EEN ARRAY - niet een object
   console.log(response.data[0].name);
   const countryData = response.data[0]
-  const currencies = countryData.currencies
 
-  console.log(currencies)
+  console.log(countryData)
+  // 2
+  const text = `${countryData.name} is situated in ${countryData.subregion}. It has a population of ${(countryData.population / 1000000).toFixed(1)} million people`
+
+  console.log("OUTPUT:", text)
 }
 
 const searchButton = document.getElementById("searchButton");
 searchButton.addEventListener("click", getCountryInfo);
+

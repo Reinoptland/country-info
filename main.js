@@ -10,9 +10,10 @@ async function getCountryInfo() {
 
   console.log(countryData)
   // 2
-  const text = `${countryData.name} is situated in ${countryData.subregion}. It has a population of ${(countryData.population / 1000000).toFixed(1)} million people`
+  const geography = `${countryData.name} is situated in ${countryData.subregion}. It has a population of ${(countryData.population / 1000000).toFixed(1)} million people`
+  const capital = `The capital is ${countryData.capital}`
 
-  console.log("OUTPUT:", text)
+  console.log("OUTPUT:", capital)
 }
 
 const searchButton = document.getElementById("searchButton");

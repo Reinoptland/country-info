@@ -13,7 +13,8 @@ async function getCountryInfo() {
   const geography = `${countryData.name} is situated in ${countryData.subregion}. It has a population of ${(countryData.population / 1000000).toFixed(1)} million people`
   const capital = `The capital is ${countryData.capital}`
 
-  // console.log("OUTPUT:", capital)
+  const currencies = countryData.currencies
+  console.log("OUTPUT:", currencies)
   formatCurrencies()
 }
 

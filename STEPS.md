@@ -42,10 +42,10 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 - 1 valuta: `and you can pay with [currency]'s`
 - 2 valuta's: `and you can pay with [currency]'s and [currency]'s`
 
-- [ ] Goed in de data kijken, waar zit deze info: -> loggen
-- [ ] variabele maken, en de currencies uit de data daaraan toekennen
-- [ ] functie maken -> formatCurrencies
-- [ ] aanroepen -> logje in de functie zetten om te checken
+- [x] Goed in de data kijken, waar zit deze info: -> loggen
+- [x] functie maken -> formatCurrencies
+- [x] variabele maken, en de currencies uit de data daaraan toekennen
+- [x] aanroepen -> logje in de functie zetten om te checken
 - [ ] input: currencies, parameter(s) toevoegen, argument(en) meegeven 
 - [ ] parameter loggen om te kijken of de input hebben
 - [ ] if

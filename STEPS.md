@@ -34,9 +34,9 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 
 3. Maak op basis van de response de volgende string en log dit in de console: `The capital is [city]`
 
-- [ ] Goed in de data kijken, waar zit deze info: -> loggen
-- [ ] variabelen maken: countryCapital
-- [ ] template string maken met -> `${countryCapital} ... etc`
+- [x] Goed in de data kijken, waar zit deze info: -> loggen
+- [x] variabelen maken: countryCapital
+- [x] template string maken met -> `${countryCapital} ... etc`
 
 4. Maak een functie die ongeacht het aantal currencies die in een land gebruikt worden, een string maakt. In een land kunnen één of twee currencies gebruikt worden:
 - 1 valuta: `and you can pay with [currency]'s`

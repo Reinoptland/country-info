@@ -23,14 +23,10 @@ const searchButton = document.getElementById("searchButton");
 searchButton.addEventListener("click", getCountryInfo);
 
 function formatCurrencies(currencyArray){
+  // assuming we have 2 currencies max
   const currencyOne = currencyArray[0]
   const currencyTwo = currencyArray[1]
 
-  console.log(currencyOne)
-
-  // is currency length -> 1
-  console.log("LENGTH 1?",currencyArray.length === 1) // true
-  console.log("LENGTH 2?",currencyArray.length > 1) // false
   if(currencyArray.length === 1){
     return `and you can pay with ${currencyOne.name}'s`
   }
@@ -38,7 +34,5 @@ function formatCurrencies(currencyArray){
   if(currencyArray.length > 1){
     return `and you can pay with ${currencyOne.name}'s and ${currencyTwo.name}'s`
   }
-  // length -> 2
-  console.log('WAT ARE THE CURRENCIES?', currencyOne, currencyTwo)
 }
 

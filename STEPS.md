@@ -48,7 +48,7 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 - [x] aanroepen -> logje in de functie zetten om te checken
 - [x] input: currencies, parameter(s) toevoegen, argument(en) meegeven 
 - [x] parameter loggen om te kijken of de input hebben
-- [ ] if
-- [ ] 1 currency -> `and you can pay with [currency]'s`
-- [ ] 2 currency -> `and you can pay with [currency]'s and [currency]'s`
-- [ ] return de waarde `and you can pay with [currency]'s and [currency]'s`
+- [x] if
+- [x] 1 currency -> `and you can pay with [currency]'s`
+- [x] 2 currency -> `and you can pay with [currency]'s and [currency]'s`
+- [x] return de waarde `and you can pay with [currency]'s and [currency]'s`

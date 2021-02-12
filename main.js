@@ -15,13 +15,13 @@ async function getCountryInfo() {
 
   const currencies = countryData.currencies
   console.log("OUTPUT:", currencies)
-  formatCurrencies()
+  formatCurrencies(currencies)
 }
 
 const searchButton = document.getElementById("searchButton");
 searchButton.addEventListener("click", getCountryInfo);
 
-function formatCurrencies(){
-  console.log('hi')
+function formatCurrencies(currencyArray){
+  console.log('WAT IS CURRENCY ARRAY?', currencyArray)
 }
 

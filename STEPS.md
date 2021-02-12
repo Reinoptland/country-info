@@ -23,3 +23,7 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 - [x] axios.get(url)
 - [x] await toevoegen
 - [x] response -> checken
+
+## Data formatten text
+
+2. Maak op basis van de response de volgende string en log dit in de console: `[country-naam] is situated in [subarea-name]. It has a population of [amount] people.`

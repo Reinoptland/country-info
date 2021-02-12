@@ -34,9 +34,13 @@ function formatCurrencies(currencyArray){
   }
 }
 
+function handleKeyPress(){
+  console.log('KEY PRESSED?')  
+}
 
 const searchButton = document.getElementById("searchButton");
 searchButton.addEventListener("click", getCountryInfo);
 
 const searchInput = document.getElementById('searchText')
+searchInput.addEventListener('keypress', handleKeyPress)
 console.log("ELEMENT?", searchInput)

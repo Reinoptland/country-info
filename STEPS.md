@@ -61,9 +61,9 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 
 ## 2 Zorg ervoor dat als de gebruiker op enter drukt 
 
-- [ ] Inputveld selecteren
-- [ ] Event listener
-- [ ] "keypress"
+- [x] Inputveld selecteren
+- [x] Event listener
+- [x] "keypress"
 - [ ] Was de key enter?
 - [ ] Was de key enter? 
 

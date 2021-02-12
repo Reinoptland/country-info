@@ -1,5 +1,5 @@
 async function getCountryInfo() {
-  const country = "Turkmenistan"; // hardcoded -> straks dynamisch
+  const country = "Antarctica"; // hardcoded -> straks dynamisch
   const url = `https://restcountries.eu/rest/v2/name/${country}?fullText=true`;
 
   const response = await axios.get(url);
@@ -15,13 +15,30 @@ async function getCountryInfo() {
 
   const currencies = countryData.currencies
   console.log("OUTPUT:", currencies)
-  formatCurrencies(currencies)
+  const currencyString = formatCurrencies(currencies)
+  console.log(currencyString)
 }
 
 const searchButton = document.getElementById("searchButton");
 searchButton.addEventListener("click", getCountryInfo);
 
 function formatCurrencies(currencyArray){
-  console.log('WAT IS CURRENCY ARRAY?', currencyArray)
+  const currencyOne = currencyArray[0]
+  const currencyTwo = currencyArray[1]
+
+  console.log(currencyOne)
+
+  // is currency length -> 1
+  console.log("LENGTH 1?",currencyArray.length === 1) // true
+  console.log("LENGTH 2?",currencyArray.length > 1) // false
+  if(currencyArray.length === 1){
+    return `and you can pay with ${currencyOne.name}'s`
+  }
+
+  if(currencyArray.length > 1){
+    return `and you can pay with ${currencyOne.name}'s and ${currencyTwo.name}'s`
+  }
+  // length -> 2
+  console.log('WAT ARE THE CURRENCIES?', currencyOne, currencyTwo)
 }
 

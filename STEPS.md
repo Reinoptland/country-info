@@ -52,3 +52,21 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 - [x] 1 currency -> `and you can pay with [currency]'s`
 - [x] 2 currency -> `and you can pay with [currency]'s and [currency]'s`
 - [x] return de waarde `and you can pay with [currency]'s and [currency]'s`
+
+8. Maak een inputveld op de pagina en zorg ervoor dat als de gebruiker op enter drukt, de functie wordt aangeroepen waarmee de gegevens over `België` worden opgehaald. 
+
+## 1 Maak een inputveld op de pagina 
+
+- [ ] HTML 
+
+## 2 Zorg ervoor dat als de gebruiker op enter drukt 
+
+- [ ] Inputveld selecteren
+- [ ] Event listener
+- [ ] "keypress"
+- [ ] Was de key enter?
+- [ ] Was de key enter? 
+
+## 3 functie wordt aangeroepen waarmee de gegevens over `België` worden opgehaald. 
+
+- [ ] Roep functie aan 

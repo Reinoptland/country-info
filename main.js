@@ -34,8 +34,8 @@ function formatCurrencies(currencyArray){
   }
 }
 
-function handleKeyPress(){
-  console.log('KEY PRESSED?')  
+function handleKeyPress(event){
+  console.log('KEY PRESSED?', event.code)  
 }
 
 const searchButton = document.getElementById("searchButton");

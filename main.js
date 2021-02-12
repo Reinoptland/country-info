@@ -6,6 +6,10 @@ async function getCountryInfo() {
   console.log(response); // -> Countries!
   // JE KRIJGT EEN ARRAY - niet een object
   console.log(response.data[0].name);
+  const countryData = response.data[0]
+  const currencies = countryData.currencies
+
+  console.log(currencies)
 }
 
 const searchButton = document.getElementById("searchButton");

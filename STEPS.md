@@ -69,4 +69,17 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 
 ## 3 functie wordt aangeroepen waarmee de gegevens over `België` worden opgehaald. 
 
-- [ ] Roep functie aan 
+- [x] Roep functie aan 
+
+9. Zorg ervoor dat de waarde uit het input veld wordt gebruikt als query voor het GET request. Er moet alleen een request gedaan worden als de gebruiker op enter drukt, of op de zoek-knop klikt. _Tip:_ gebruik een globale variabele.
+
+## 1. Zoek de waarde uit het input veld 
+
+- [ ] Input veld selecteren (getElement)
+- [ ] loggen, .value van het inputVeld
+
+## 2. Gebruik die als query voor het GET request.
+
+## 3. Alleen als enter, of button click
+
+

@@ -1,5 +1,7 @@
 async function getCountryInfo() {
-  const country = "Antarctica"; // hardcoded -> straks dynamisch
+  const inputElement = document.getElementById("searchText")
+  const userInput = inputElement.value
+  const country = userInput; // hardcoded -> straks dynamisch
   const url = `https://restcountries.eu/rest/v2/name/${country}?fullText=true`;
 
   const response = await axios.get(url);
@@ -37,8 +39,7 @@ function formatCurrencies(currencyArray){
 }
 
 function handleKeyPress(event){
-  console.log(event.code)
-  console.log('KEY PRESSED ENTER?', event.code === "Enter")  // true / false
+  // console.log('KEY PRESSED ENTER?', event.code === "Enter")  // true / false
   if( event.code === "Enter"){
     getCountryInfo()
   }
@@ -49,4 +50,3 @@ searchButton.addEventListener("click", getCountryInfo);
 
 const searchInput = document.getElementById('searchText')
 searchInput.addEventListener('keypress', handleKeyPress)
-console.log("ELEMENT?", searchInput)

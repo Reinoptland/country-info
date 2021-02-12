@@ -57,7 +57,7 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 
 ## 1 Maak een inputveld op de pagina 
 
-- [ ] HTML 
+- [x] HTML 
 
 ## 2 Zorg ervoor dat als de gebruiker op enter drukt 
 

@@ -19,20 +19,24 @@ async function getCountryInfo() {
   console.log(currencyString)
 }
 
-const searchButton = document.getElementById("searchButton");
-searchButton.addEventListener("click", getCountryInfo);
 
 function formatCurrencies(currencyArray){
   // assuming we have 2 currencies max
   const currencyOne = currencyArray[0]
   const currencyTwo = currencyArray[1]
-
+  
   if(currencyArray.length === 1){
     return `and you can pay with ${currencyOne.name}'s`
   }
-
+  
   if(currencyArray.length > 1){
     return `and you can pay with ${currencyOne.name}'s and ${currencyTwo.name}'s`
   }
 }
 
+
+const searchButton = document.getElementById("searchButton");
+searchButton.addEventListener("click", getCountryInfo);
+
+const searchInput = document.getElementById('searchText')
+console.log("ELEMENT?", searchInput)

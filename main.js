@@ -14,8 +14,10 @@ async function getCountryInfo() {
   const capital = `The capital is ${countryData.capital}`
 
   const currencies = countryData.currencies
-  console.log("OUTPUT:", currencies)
+  // console.log("OUTPUT:", currencies)
   const currencyString = formatCurrencies(currencies)
+  console.log(geography)
+  console.log(capital)
   console.log(currencyString)
 }
 
@@ -37,6 +39,9 @@ function formatCurrencies(currencyArray){
 function handleKeyPress(event){
   console.log(event.code)
   console.log('KEY PRESSED ENTER?', event.code === "Enter")  // true / false
+  if( event.code === "Enter"){
+    getCountryInfo()
+  }
 }
 
 const searchButton = document.getElementById("searchButton");

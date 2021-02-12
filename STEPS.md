@@ -64,7 +64,7 @@ _Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en 
 - [x] Inputveld selecteren
 - [x] Event listener
 - [x] "keypress"
-- [ ] Was de key enter?
+- [x] Was de key enter?
 - [ ] Was de key enter? 
 
 ## 3 functie wordt aangeroepen waarmee de gegevens over `België` worden opgehaald. 
